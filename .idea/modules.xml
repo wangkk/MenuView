@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MenuView.iml" filepath="$PROJECT_DIR$/MenuView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menulibrary/menulibrary.iml" filepath="$PROJECT_DIR$/menulibrary/menulibrary.iml" />
+    </modules>
+  </component>
+</project>

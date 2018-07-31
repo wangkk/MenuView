@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.wkk.menulibrary.MenuDrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--内容  区域-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+        <!--侧滑区域  LinearLayout    ColorDrawable -->
+        <com.wkk.menulibrary.MenuContentLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                style="@style/MenuText"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@mipmap/circle"
+                android:onClick="onClick"
+                android:text="朋友圈" />
+
+            <TextView
+                style="@style/MenuText"
+                android:drawableLeft="@mipmap/wallet"
+                android:onClick="onClick"
+                android:text="钱包" />
+
+            <TextView
+                style="@style/MenuText"
+                android:drawableLeft="@mipmap/coupon"
+                android:onClick="onClick"
+                android:text="优惠券" />
+
+            <TextView
+                style="@style/MenuText"
+                android:drawableLeft="@mipmap/friends"
+                android:onClick="onClick"
+                android:text="通讯录" />
+
+            <TextView
+                style="@style/MenuText"
+                android:drawableLeft="@mipmap/home"
+                android:onClick="onClick"
+                android:text="我的" />
+        </com.wkk.menulibrary.MenuContentLayout>
+
+
+    </com.wkk.menulibrary.MenuDrawerLayout>
+
+</RelativeLayout>
